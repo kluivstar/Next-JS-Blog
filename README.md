@@ -27,38 +27,41 @@ A modern blog application built with **Next.js**, featuring a blog section with 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/your-username/nextjs-blog.git
 cd nextjs-blog
-2. Install dependencies
+
+###  2. Install dependencies
+
 bash
 Copy code
 npm install
 # or
 yarn install
-3. Configure environment variables
+
+### 3. Configure environment variables
 Create a .env.local file in the project root and add the following:
 
-env
-Copy code
 NEXTAUTH_SECRET=your-secret
 GITHUB_ID=your-github-client-id
 GITHUB_SECRET=your-github-client-secret
-4. Run the development server
+
+###  4. Run the development server
 bash
 Copy code
 npm run dev
-5. Open in browser
+
+### 5. Open in browser
 Visit http://localhost:3000 to view the app.
 
-📚 Usage
+###  Usage
 Go to /blog to view all posts
 
 Click a post to read it individually
 
 Sign in with your GitHub account for user access
 
-🤝 Contributing
+###  Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to open an issue or submit a pull request.
 
